@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+}
+#nav h3:hover {
+    background-color: black;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+
+#intro{
+    width: 100%;
+    height: 40%;
+    padding: 40PX;
+}
+#intro h1{
+    font-size: 140px;
+    line-height: 130px;
+    letter-spacing: -3px;
+}
+#PLACE {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#PLACE h3, #PLACE h4 {
+    font-size: 25px ;
+    line-height: 20px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+#image {
+    width: 100%;
+    height: 500%;
+    background-image: url(pra.jpg);
+    background-size:cover;
+    padding: 10px;
+    margin-top: 60px;
+}
+#about{
+    height: 45%;
+    width: 85%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+    font-size: 60px;
+    line-height: 80px;
+    padding: 60px 60px;
+}
+#about-part2{
+    width: 30%;
+    letter-spacing: 5px;
+    font-size: 30px;
+    border-left: 2px solid black;
+    padding: 0 50px;
+    font-weight: 600;
+}
+#work{
+    height: 50%;
+    width: 100%;
+    margin-top: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-top: -5px;
+}
+#work1 h3{
+    font-size: 33px;
+    font-weight: 600;
+}
+#work1 i{
+    font-size: 30px;
+}
+#work2{
+    width: 65%;
+    height: 100%;
+    padding: 0 60px;
+}
+.work2-part{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin-top: -15px;
+}
+.work2-part:nth-child(1){
+    padding-top: o;
+    border-bottom: 2px solid black ;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem :nth-child(1) {
+    border-left:2px solid black ;
+}
+.work2-part .elem :nth-child(2) {
+    padding-left:50px;
+}
+.work2-part .elem h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.work2-part .elem p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(145, 130, 130);
+}
+
